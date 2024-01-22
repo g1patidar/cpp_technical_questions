@@ -29,7 +29,7 @@ int roman(string s){
 
 int main(){
     
-    string s="XV";
+    string s="IV";
     cout<<roman(s);
     return 0;
 }
