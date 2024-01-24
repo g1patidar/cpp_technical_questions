@@ -45,8 +45,8 @@ int main(){
 
     mx=sum;
     while(j<a.size()){
-        sum= sum- a[p];
-        sum= sum+ a[j];
+        sum= sum - a[p];
+        sum= sum + a[j];
         mx= max(mx, sum);
         j++;
         p++;

@@ -4,6 +4,8 @@ using namespace std;
 int main(){
 
     // First approch 
+    // hare & tortoise problem
+
     vector<int> a{11,12,13,15,17,18};
     int i=0;
     int s=a.size();
@@ -13,7 +15,15 @@ int main(){
             cout<<endl;
         }
         i++;
-    }    return 0;
+    }   
+
+    // by another style use for loop
+    // for(int i=0; i<a.size(); ++i){
+    //     if(a[i+1]!= a[i]+1 and i!=a.size()-1){
+    //         cout<<a[i]+1<<"\t";
+    //     }
+    // }
+     return 0;
 
     // Second Approch
     

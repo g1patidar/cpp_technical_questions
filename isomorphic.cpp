@@ -18,8 +18,8 @@ bool iso(string &s1, string &s2)
     {
         if (!a1[s1[i]] and !a2[s2[i]])
         {
-            a1[s1[i]] = a2[s2[i]];
-            a2[s2[i]] = a1[s1[i]];
+            a1[s1[i]] = s2[i];
+            a2[s2[i]] = s1[i];
         }
         else if(a1[s1[i]]!=s2[i]){
             return false;
@@ -32,7 +32,7 @@ int main()
 {
 
     string s1 = "all";
-    string s2 = "ekg";
+    string s2 = "egg";
     bool s = iso(s1, s2);
     if (s)
     {
